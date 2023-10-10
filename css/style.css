@@ -112,45 +112,25 @@
   background: rgba(255, 255, 255, 0.3);
 }
 /*Tokoh terlibat*/
-.tokoh-utama{
-  margin-top: 20px;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  justify-content: center;
+.table, tr, th, td{
+  border: 2px solid black;
 }
-.tokoh{
-  width: 300px;
-  margin-left: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-  border-style: solid;
-  border-radius: 20px;
+
+th{
   padding: 10px;
 }
-.tokoh img{
-  text-align: center;
+.tokoh-img{
   height: 200px;
-  margin-bottom: 10px;
+  padding: 10px;
 }
-
 .nama-tokoh{
+  text-align: center;
   font-weight: bold;
+  width: 250px;
 }
 .deskripsi{
-  padding-top: 10px;
+  text-align: center;
 }
-
-/*Tokoh gugur*/
-.tokoh-gugur{
-  margin-top: 20px;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  row-gap: 10px;
-  justify-content: center;
-}
-
 /*Footer*/
 .footer{
   padding-top: 20px;
@@ -161,4 +141,46 @@
 .footer a{
   margin-top: 20px;
   padding: 20px;
+}
+
+/*Form*/
+.bg-form{
+  margin-top: 20px;
+  background-color: green;
+}
+.form-nama{   
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.nama{
+  padding-right: 10px;
+}
+#nama::placeholder{
+  padding-left: 10px;
+}
+#nama{
+  border-radius: 20px;
+  height: 20px;
+}
+.gender{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.gender input{
+  margin-right: 5px;
+}
+.gender label{
+  margin-right: 15px;
+}
+.pilihan{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.pilihan input{
+  margin-right: 10px;
 }
