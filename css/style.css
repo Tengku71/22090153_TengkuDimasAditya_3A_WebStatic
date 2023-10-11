@@ -145,8 +145,14 @@ th{
 
 /*Form*/
 .bg-form{
+  display: flex;
+  justify-content: center;
   margin-top: 20px;
-  background-color: green;
+}
+form{
+  width: 50%;
+  background-color: #80B3FF;
+  border-radius: 40px;
 }
 .form-nama{   
   padding-top: 20px;
@@ -179,8 +185,24 @@ th{
   display: grid;
   grid-template-columns: auto auto;
   justify-content: center;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 .pilihan input{
   margin-right: 10px;
+  margin-bottom: 10px;
+}
+.pilihan label{
+  padding-bottom: 10px;
+}
+.submit-btn{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.submit{
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: #232D3F;
+  color: white;
+  font-weight: bold;
 }
