@@ -5,7 +5,7 @@
   font-family: Martian Mono, Arial, Helvetica, sans-serif;
 }
 /*Header*/
-.header{
+.header-wrapper{
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -14,7 +14,7 @@
   background-color: #65451F;
   z-index: 1000;
 }
-.fake-header{
+.header{
   height: 40px;
 }
 .left-header{
@@ -42,14 +42,13 @@
 }
 .right-header ul li a{
   color: white;
-}
-.right-header ul li a:link{
   text-decoration: none;
 }
 .right-header ul li a:hover{
   color: #C51605 ;
 }
-.fake{
+
+.kronologi-id, .tujuan-id, .gallery-id{
   height: 20px;
 }
 
